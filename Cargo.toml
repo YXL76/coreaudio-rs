@@ -22,4 +22,7 @@ core_midi = ["coreaudio-sys/core_midi"]
 
 [dependencies]
 bitflags = "1.0"
-coreaudio-sys = { version = "0.2", default-features = false }
+
+[dependencies.coreaudio-sys]
+git = "https://github.com/YXL76/coreaudio-sys"
+default-features = false
